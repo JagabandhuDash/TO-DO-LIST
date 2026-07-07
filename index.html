@@ -5,25 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TO-DO-LIST</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/14ca19515b.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <main>
+    <div id="doc-body">
     <div id="container">
     <div id="input-box">
-        <input type="text" placeholder="Enter Tasks!">
+        <form onsubmit="formSubmit()">
+        <input type="text" placeholder="Enter Tasks!" required id="text-box">
         <button id="add-btn">Add</button>
+        </form>
     </div>
     <div id="to-do-box"></div>
     <table>
     <tbody>
-    <tr>
-        
-    </tr>
     </tbody>
     </table>
 
     </div>
+
+</div>
 </main>
+
+
 <script src="/app.js"></script> 
 </body>
 </html>
