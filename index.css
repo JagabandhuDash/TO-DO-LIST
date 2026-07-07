@@ -20,6 +20,28 @@
     text-align: center;
     padding: 30px;
 }
+
+#text-box, #add-btn{
+padding: 7px;
+border-radius: 5px;
+}
+#text-box{
+    width: 300px;
+    border-color: blue;
+}
+
+#add-btn{
+width: 70px;
+color: #f0f8ff;
+background-color: blueviolet;
+}
+
+#to-do-list{
+    margin-top: 30px;
+}
+
+
+
 #delete-button{
     background-color: blueviolet;
     color: #f0f8ff;
