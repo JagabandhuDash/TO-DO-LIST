@@ -17,8 +17,12 @@
     height: 400px;
     width: 500px;
     border-radius: 5px;
-    text-align: center;
     padding: 30px;
+    box-shadow: 0 0 20px black;
+}
+
+form{
+    text-align: center;
 }
 
 #text-box, #add-btn{
@@ -46,4 +50,9 @@ background-color: blueviolet;
     background-color: blueviolet;
     color: #f0f8ff;
     border-radius: 5px;
+}
+
+td{
+    background-color: #c2ced9;
+    padding: 8px;
 }
