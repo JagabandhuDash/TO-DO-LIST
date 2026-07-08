@@ -19,13 +19,14 @@ let row = table.insertRow(table.length)
 
 
 
+
 text = row.insertCell(0)
 text.innerHTML = data.text 
+text.className = "task-text"
 
 button = row.insertCell(1)
 button.innerHTML = `<button id="delete-button" onclick="deleteData(this)"><i class="fa-solid fa-trash"></i></button>`
-text.style.width="500px"
-table.style.borderRadius="10px"
+button.className = "task-action"
 }
 
 function deleteData(data){

@@ -50,9 +50,26 @@ background-color: blueviolet;
     background-color: blueviolet;
     color: #f0f8ff;
     border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+table{
+    border-collapse: collapse;
 }
 
 td{
     background-color: #c2ced9;
     padding: 8px;
+    margin-top: 25px;
+    border-top: 12px solid #f0f8ff;
+}
+.task-text {
+    width: 95%;
+
+}
+.task-action {
+    width: 15%;
+    text-align: center;
 }
